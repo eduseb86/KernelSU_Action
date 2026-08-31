@@ -123,7 +123,7 @@ jobs:
       IN_ENABLE_HIDE_STUFF: ${{ inputs.hide_stuff }}
       IN_ENABLE_KPM: ${{ inputs.kpm }}
       IN_EXTRA_DEFCONFIG: ${{ inputs.extra_defconfig }}
-
+      IN_EXTRA_CMDS: "LLVM_IAS=0"
     steps:
       - uses: actions/checkout@v4
 
